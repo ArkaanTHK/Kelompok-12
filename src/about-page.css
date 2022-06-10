@@ -1,51 +1,67 @@
-body {
-    background-color: lightblue;
+/* Navbar */
+.navbar-brand {
+    font-family:Gugi, cursive;
+    margin-top: 5px;
+    font-size: 28px;
 }
-.navtop {
-    background-color: white;
-    height: 60px;
-    width: 100%;
-    border: 0;
-}
-.navtop div {
-    display: flex;
-    margin: 0 auto;
-    width: 1000px;
-    height: 100%;
-}
-.navtop div h1, .navtop div a {
-    display: inline-flex;
-    align-items: center;
-}
-.navtop div h1 {
-    flex: 1;
-    font-size: 24px;
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 0;
     padding: 0;
-    margin: 0;
-    color: gray;
-    font-weight: normal;
+    position: relative;
+    z-index: 1030;
 }
-.navtop div a {
-    padding: 0 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
+/* End of Navbar Config's */
+
+/* Line to divide Section's */
+hr.rounded{
+    margin-top: -100px;
+    margin-bottom: 100px;
+    width: 75%;
+    margin-left: 150px;
+    height: auto;
 }
-.content {
-    width: 1000px;
+
+hr.rounded-2{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    width: 75%;
+    margin-left: 150px;
+    height: auto;
+}
+/* End of Line to divide Section's */
+
+
+/* Jumbotron Config's */
+.jumbotron{
+    background-color: #fff;
+    margin-top: 15px;
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.athena{
     margin: 0 auto;
-}
-.content h2 {
-    margin: 0;
-    padding: 25px 0;
+    width: 50%;
+    height: auto;
     text-align: center;
-    border-bottom: 1px solid gray;
-    color: gray;
 }
-.content h6 {
-    margin: 0;
-    padding: 25px 0;
+.col-md-6{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    text-align: justify;
+}
+/* End of Jumbotron Config's */
+/* Footer */
+.footer{
+    background-color: #fff;
+    margin-top: 15px;
+    width: auto;
+    height: 100px;
     text-align: center;
-    color: black;
-    border-top: 1px solid gray;
 }
