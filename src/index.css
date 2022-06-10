@@ -1,11 +1,9 @@
-/* Tulisan Athena Navbar */
+/* Navbar */
 .navbar-brand {
     font-family:Gugi, cursive;
     margin-top: 5px;
     font-size: 28px;
 }
-
-/* Navbar */
 .navbar {
     background-color: #fff;
     border-bottom: 1px solid #e5e5e5;
@@ -16,19 +14,38 @@
     position: relative;
     z-index: 1030;
 }
+/* End of Navbar Config's */
 
+
+/* Jumbotron Config's */
 .jumbotron{
     background-color: #fff;
     margin-top: 15px;
     width: auto;
+    height: 300px;
 }
 
 .athena{
-    margin-left: 340px;
-    padding-bottom: 30px;
+/* Make it to center of the website */
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
 }
 
-.solution{
-    margin-left: 250px;
-    padding-bottom: 30px;   
+.lead{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
 }
+/* End of Jumbotron Config's */
+
+/* Cards Config */
+
+.cards{
+    margin-top: 150px;
+
+}
+
